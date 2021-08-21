@@ -1,32 +1,4 @@
-
-
-<body>
-    <div class="wrap">
-        <!-- ヘッダー -->
-        <div class="header-wrap">
-            <div class="header-container">
-                <header class="header">
-                    <!-- ヘッダロゴ -->
-                    <h1>
-                        <a href="#"><img src="assets/img/header_logo.png" alt="蒼乃建設" class="header-logo"></a>
-                    </h1>
-                    <!-- ヘッダーナビ -->
-                    <nav class="header-nav">
-                        <ul>
-                            <li><a href="#">企業理念</a></li>
-                            <li><a href="#">施工事例</a></li>
-                            <li><a href="#">採用情報</a></li>
-                            <li><a href="#">お問い合わせ</a></li>
-                        </ul>
-                    </nav>
-                    <div class="header-icon"><img src="assets/img/hamburger.svg" alt="ハンバーガーメニュー"></div>
-                </header>
-
-                <!-- ファーストビューの文章 -->
-                <p class="header-main__text">街を作る。未来を作る。</p>
-            </div>
-        </div>
-
+<?php get_header(); ?>
         <!-- お知らせ -->
         <section class="news">
             <h2 class="news-title">お知らせ</h2>
@@ -63,29 +35,4 @@
             <a href="#" class="link-img"><img src="assets/img/recruit.png" alt="採用情報"></a>
             <a href="#" class="link-img"><img src="assets/img/contact.png" alt="お問い合わせ"></a>
         </div>
-
-        <footer class="footer">
-            <div class="footer-content">
-                <div class="footer-nav">
-                    <!-- フッターロゴ -->
-                    <p>
-                        <a href="#"><img src="assets/img/footer_logo.png" alt="蒼乃建設" class="footer-logo"></a>
-                    </p>
-                    <!-- フッターナビ -->
-                    <nav class="footer-nav__list">
-                        <ul>
-                            <li><a href="#">企業理念</a></li>
-                            <li><a href="#">施工事例</a></li>
-                            <li><a href="#">採用情報</a></li>
-                            <li><a href="#">お問い合わせ</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <p class="copyright">Copyright © 2020 Aono Corporation.</p>
-            </div>
-        </footer>
-    </div>
-    <!-- wrap -->
-</body>
-
-</html>
+<?php get_footer(); ?>
