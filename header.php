@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>蒼乃建設</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
     <?php wp_head(); ?>
 </head>
 <body>
@@ -18,7 +17,7 @@
                 <header class="header">
                     <!-- ヘッダロゴ -->
                     <h1>
-                        <a href="#"><img src="assets/img/header_logo.png" alt="蒼乃建設" class="header-logo"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/header_logo.png" alt="蒼乃建設" class="header-logo"></a>
                     </h1>
                     <!-- ヘッダーナビ -->
                     <nav class="header-nav">
@@ -29,7 +28,7 @@
                             <li><a href="#">お問い合わせ</a></li>
                         </ul>
                     </nav>
-                    <div class="header-icon"><img src="assets/img/hamburger.svg" alt="ハンバーガーメニュー"></div>
+                    <div class="header-icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/hamburger.svg" alt="ハンバーガーメニュー"></div>
                 </header>
                 <!-- ファーストビューの文章 -->
                 <p class="header-main__text">街を作る。未来を作る。</p>
