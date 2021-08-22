@@ -51,13 +51,14 @@ a:hover {
 
 .header-nav ul li {
   list-style: none;
-  margin: 0 30px;
+  margin: 0 30px; 
 }
 
 .header-nav ul li a {
   text-decoration: none;
   color: #000;
   font-size: 18px;
+ 
 }
 
 .header-main__text {
@@ -130,6 +131,11 @@ a:hover {
   text-decoration: none;
   color: #000;
   font-size: 18px;
+  display: flex;
+}
+
+.news-list li p {
+  text-align: right;
 }
 
 .news-list__border {

@@ -17,7 +17,7 @@
                     <?php the_author(); ?>
                 </p>
                 </li>
-                
+
                 <li><a href="#"><span class="news-list__block">2020.11.10<span class="news-list__border">お知らせ</span></span>【メディア掲載】住宅雑誌 2020年11月号</a></li>
                 <li><a href="#"><span class="news-list__block">2020.11.01<span class="news-list__border">お知らせ</span></span>ホームページが完成しました。</a></li>
             </ul>
