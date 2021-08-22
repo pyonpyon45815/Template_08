@@ -3,7 +3,8 @@
         <section class="news">
             <h2 class="news-title">お知らせ</h2>
             <ul class="news-list">
-                <li><a href="#"><span class="news-list__block">2020.11.17<span class="news-list__border">お知らせ</span></span>本社打合せ室が完成しました。</a></li>
+              
+                <li><a href="#"><span class="news-list__block"><?php the_time( "Y/m/d" ); ?><span class="news-list__border"><?php the_title(); ?></span></span></a></li>
                 <li><a href="#"><span class="news-list__block">2020.11.10<span class="news-list__border">お知らせ</span></span>【メディア掲載】住宅雑誌 2020年11月号</a></li>
                 <li><a href="#"><span class="news-list__block">2020.11.01<span class="news-list__border">お知らせ</span></span>ホームページが完成しました。</a></li>
             </ul>
