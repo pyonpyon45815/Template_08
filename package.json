@@ -1,0 +1,20 @@
+{
+    "name": "tailwindcss",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "SET TAILWIND_MODE=watch & postcss styles.css -o dist.css -w",
+        "build": "SET NODE_ENV=production&&postcss styles.css -o dist.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.3.1",
+        "cssnano": "^5.0.7",
+        "postcss-cli": "^8.3.1",
+        "tailwindcss": "^2.2.7"
+    },
+    "dependencies": {}
+}
