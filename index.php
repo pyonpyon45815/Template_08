@@ -1,7 +1,7 @@
 <?php get_header(); ?>
         <!-- お知らせ -->
         <section class="news">
-            <h2 class="news-title">お知らせでございます</h2>
+            <h2 class="news-title">お知らせでごわす</h2>
             <ul class="news-list">
 
             <?php while (have_posts()): the_post(); ?>

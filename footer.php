@@ -3,7 +3,7 @@
                 <div class="footer-nav">
                     <!-- フッターロゴ -->
                     <p>
-                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo.png" alt="蒼乃建設" class="footer-logo"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo.png" alt="蒼乃建設" class="footer-logo "></a>
                     </p>
                     <!-- フッターナビ -->
                     <nav class="footer-nav__list">
@@ -22,6 +22,7 @@
         
     </div>
     <!-- wrap -->
+    <script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
     <?php wp_footer(); ?>
 </body>
 
