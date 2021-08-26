@@ -573,13 +573,17 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(110, 231, 183, var(--tw-bg-opacity));
 }
+.bg-yellow-500 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
+}
 .bg-green-500 {
 	--tw-bg-opacity: 1;
 	background-color: rgba(16, 185, 129, var(--tw-bg-opacity));
 }
-.bg-yellow-500 {
+.bg-red-300 {
 	--tw-bg-opacity: 1;
-	background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
+	background-color: rgba(252, 165, 165, var(--tw-bg-opacity));
 }
 .text-center {
 	text-align: center;
@@ -610,17 +614,45 @@ video {
 	--tw-text-opacity: 1;
 	color: rgba(220, 38, 38, var(--tw-text-opacity));
 }
-.text-yellow-900 {
+.text-blue-900 {
 	--tw-text-opacity: 1;
-	color: rgba(120, 53, 15, var(--tw-text-opacity));
+	color: rgba(30, 58, 138, var(--tw-text-opacity));
 }
 .text-red-200 {
 	--tw-text-opacity: 1;
 	color: rgba(254, 202, 202, var(--tw-text-opacity));
 }
-.text-blue-900 {
+.text-red-500 {
 	--tw-text-opacity: 1;
-	color: rgba(30, 58, 138, var(--tw-text-opacity));
+	color: rgba(239, 68, 68, var(--tw-text-opacity));
+}
+.text-red-700 {
+	--tw-text-opacity: 1;
+	color: rgba(185, 28, 28, var(--tw-text-opacity));
+}
+.text-red-800 {
+	--tw-text-opacity: 1;
+	color: rgba(153, 27, 27, var(--tw-text-opacity));
+}
+.text-green-800 {
+	--tw-text-opacity: 1;
+	color: rgba(6, 95, 70, var(--tw-text-opacity));
+}
+.text-yellow-400 {
+	--tw-text-opacity: 1;
+	color: rgba(251, 191, 36, var(--tw-text-opacity));
+}
+.text-red-400 {
+	--tw-text-opacity: 1;
+	color: rgba(248, 113, 113, var(--tw-text-opacity));
+}
+.text-yellow-500 {
+	--tw-text-opacity: 1;
+	color: rgba(245, 158, 11, var(--tw-text-opacity));
+}
+.text-yellow-200 {
+	--tw-text-opacity: 1;
+	color: rgba(253, 230, 138, var(--tw-text-opacity));
 }
 .hover\:bg-red-500:hover {
 	--tw-bg-opacity: 1;
@@ -629,4 +661,8 @@ video {
 .hover\:bg-yellow-500:hover {
 	--tw-bg-opacity: 1;
 	background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
+}
+.hover\:bg-green-300:hover {
+	--tw-bg-opacity: 1;
+	background-color: rgba(110, 231, 183, var(--tw-bg-opacity));
 }

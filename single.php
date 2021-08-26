@@ -16,7 +16,7 @@
     <h3 class="text-center mt-4 text-7xl text-blue-900 bg-yellow-500 ">HELLO World!!</h3>
     <h4 class="font-bold text-7xl mt-4 text-right text-red-200 bg-green-300">おはこんにちは</h4>
     <button class="button-action text-right mt-5 text-red-600 text-6xl hover:bg-yellow-500">ここ押してみて</button>
-    <h5 class="bg-green-500 text-5xl text-red-200 mt-10 text-center">どないなっとんねん！！！！11111</h5>
+    <h5 class="text-red-500 hover:bg-green-300 text-5xl mt-5 text-center font-bold">なんで色が変わらない？？</h5>
 
 
     <script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
