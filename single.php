@@ -14,7 +14,7 @@
 <body>
     <div class="wrap">
         <!-- ヘッダー -->
-        <div class="bg-no-repeat bg-cover bg-center h-96 relative opacity-80" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/danist-soh-dqXiw7nCb9Q-unsplash.jpg)">
+        <div class="bg-no-repeat bg-cover bg-center h-96 relative opacity-50" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/danist-soh-dqXiw7nCb9Q-unsplash.jpg)">
             <div class="header-container">
                 <header class="header">
                     <!-- ヘッダロゴ -->
