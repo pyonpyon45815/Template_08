@@ -14,7 +14,7 @@
 <body>
     <div class="wrap"> 
         <!-- ヘッダー -->
-        <div class="bg-no-repeat bg-cover bg-center relative" style="height: 80vh;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/danist-soh-dqXiw7nCb9Q-unsplash.jpg);
+        <div class="bg-no-repeat bg-cover bg-center relative h-96" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/danist-soh-dqXiw7nCb9Q-unsplash.jpg);
         background-color: rgba(255,255,255,0.5);
         background-blend-mode: lighten;">
 
