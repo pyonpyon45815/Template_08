@@ -12,19 +12,22 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <div class="wrap">
+    <div class="wrap"> 
         <!-- ヘッダー -->
-        <div class="bg-no-repeat bg-cover bg-center h-96 relative opacity-50" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/danist-soh-dqXiw7nCb9Q-unsplash.jpg)">
+        <div class="bg-no-repeat bg-cover bg-center h-96"style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/danist-soh-dqXiw7nCb9Q-unsplash.jpg);
+        background-color: rgba(255,255,255,0.5);
+        background-blend-mode: lighten;">
+
             <div class="header-container">
                 <header class="header">
                     <!-- ヘッダロゴ -->
                     <h1>
-                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/header_logo.png" alt="蒼乃建設" class="header-logo"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/header_logo.png" alt="蒼乃建設" class="header-logo border-none"></a>
                     </h1>
                     <!-- ヘッダーナビ -->
                     <nav class="header-nav">
                         <ul>
-                            <li><a href="#">企業理念</a></li>
+                            <li class=""><a href="#">開業理念</a></li>
                             <li><a href="#">施工事例</a></li>
                             <li><a href="#">採用情報</a></li>
                             <li><a href="#">お問い合わせ</a></li>
@@ -32,7 +35,6 @@
                     </nav>
                     <div class="header-icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/hamburger.svg" alt="ハンバーガーメニュー"></div>
                 </header>
-                
             </div>
         </div>
 

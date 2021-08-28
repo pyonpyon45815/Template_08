@@ -30,16 +30,16 @@
             <h2 class="case-title">施工事例</h2>
             <div class="flexbox">
                 <section class="case-content">
-                    <p class="case-content__img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/building1.png" alt="M様邸新築工事"></p>
+                    <p class="case-content__img"><img class="border-none" src="<?php echo get_template_directory_uri(); ?>/assets/img/building1.png" alt="M様邸新築工事"></p>
                     <h3 class="case-content__title">M様邸新築工事</h3>
                     <p class="case-content__text">埼玉県</p>
-                    <a href="#" class="case-content__btn"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/more.png" alt="詳細を見る"></a>
+                    <a href="#" class="case-content__btn"><img class="border-none" src="<?php echo get_template_directory_uri(); ?>/assets/img/more.png" alt="詳細を見る"></a>
                 </section>
                 <section class="case-content">
-                    <p class="case-content__img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/building2.png" alt="スカイビル"></p>
+                    <p class="case-content__img"><img class="border-none" src="<?php echo get_template_directory_uri(); ?>/assets/img/building2.png" alt="スカイビル"></p>
                     <h3 class="case-content__title">スカイビル</h3>
                     <p class="case-content__text">東京都</p>
-                    <a href="#" class="case-content__btn"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/more.png" alt="詳細を見る" class="case-content__img"></a>
+                    <a href="#" class="case-content__btn"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/more.png" alt="詳細を見る" class="case-content__img border-none"></a>
                 </section>
             </div>
             <p class="case-btn"><a href="#">施工実績一覧</a></p>
@@ -47,8 +47,8 @@
 
         <!-- links -->
         <div class="links">
-            <a href="#" class="link-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/company.png" alt="企業理念"></a>
-            <a href="#" class="link-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/recruit.png" alt="採用情報"></a>
-            <a href="#" class="link-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/contact.png" alt="お問い合わせ"></a>
+            <a href="#" class="link-img"><img class="border-none" src="<?php echo get_template_directory_uri(); ?>/assets/img/company.png" alt="企業理念"></a>
+            <a href="#" class="link-img"><img class="border-none" src="<?php echo get_template_directory_uri(); ?>/assets/img/recruit.png" alt="採用情報"></a>
+            <a href="#" class="link-img"><img class="border-none" src="<?php echo get_template_directory_uri(); ?>/assets/img/contact.png" alt="お問い合わせ"></a>
         </div>
 <?php get_footer(); ?>
