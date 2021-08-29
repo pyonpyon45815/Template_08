@@ -1,3 +1,11 @@
+*/
+Theme Name: 例:komugi
+Author: 例:komugi
+Version: 例:1.0
+Description: 例:WordPressの練習です
+*/
+
+
 * {
   box-sizing: border-box;
   
@@ -20,7 +28,7 @@ a:hover {
 
 /* 繝倥ャ繝繝ｼ */
 .header-wrap {
-  background-image: url(../img/main.png);
+  background-image: url(./assets/img/main.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
