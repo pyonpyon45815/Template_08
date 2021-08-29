@@ -44,6 +44,10 @@
     <section class="mt-7 mb-7" style="min-height: calc(100vh - 244px);">
             <h2 class="news-title text-3xl sm:text-4xl"><?php the_title(); ?></h2>
 
+        <!-- アイキャッチ -->
+        <?php the_post_thumbnail(); ?>
+
+
             <div class="w-1/2 text-left mt-0 mb-0 mr-auto ml-auto">
                 <p class="mt-3md:text-xl md:mt-0"><?php the_content(); ?></p>
             </div>
