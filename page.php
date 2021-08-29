@@ -36,7 +36,7 @@
         </div>
         
         <!-- hero -->
-        <div class="bg-no-repeat bg-cover bg-center relative h-96" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/danist-soh-dqXiw7nCb9Q-unsplash.jpg);background-color: rgba(255,255,255,0.5);background-blend-mode: lighten;">
+        <div class="bg-no-repeat bg-cover bg-center relative h-96" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/joel-filipe-RFDP7_80v5A-unsplash.jpg);background-color: rgba(255,255,255,0.2);background-blend-mode: lighten;">
         </div>
 
         <!-- ループ -->
