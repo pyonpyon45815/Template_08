@@ -41,15 +41,17 @@
 
         <!-- ループ -->
     <?php while (have_posts()): the_post(); ?>
-    <section class="text-center">
-        <div class="mt-7 mb-7">
+    <section class="mt-7 mb-7">
             <h2 class="news-title text-3xl sm:text-4xl"><?php the_title(); ?></h2>
-            <div class="mt-3 md:text-xl md:mt-0"><?php the_content(); ?></div>
-            <p class="mt-7 text-xs"><?php the_time( "Y/m/d" ); ?><span class="ml-3 text-xs">Posted by<?php the_author(); ?></span></p>
-        </div>
 
-        
-       
+            <div class="w-1/2 text-left mt-0 mb-0 mr-auto ml-auto">
+                <p class="mt-3md:text-xl md:mt-0"><?php the_content(); ?></p>
+            </div>
+
+            <p class="mt-7 text-xs"><?php the_time( "Y/m/d" ); ?>
+            <span class="ml-3 text-xs">Posted by<?php the_author(); ?>
+            </span>
+            </p>
     </section>
     <?php endwhile; ?> 
 
