@@ -40,14 +40,14 @@
         <?php
         $id = get_post_thumbnail_id();
         $img = wp_get_attachment_image_src($id);
+
         ?>
         <!-- hero -->
         <!-- 上記のアイキャッチ画像が入る -->
         
-        <div class="bg-no-repeat bg-cover bg-bottom relative" style="background-image: url('<?php echo $img[0]; ?>');background-color: rgba(255,255,255,);background-blend-mode: lighten; height: 100vh;">
+        <div class="bg-center h-96 bg-no-repeat bg-cover" style="background-image: url('<?php echo $img[0]; ?>'); background-color: rgba(255,255,255,0.2); background-blend-mode: lighten;">
         </div>
         
-
 
 
         <!-- ループ -->
