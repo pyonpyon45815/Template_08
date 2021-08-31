@@ -58,7 +58,16 @@
         
 
             <div class="w-1/2 text-left mt-0 mb-0 mr-auto ml-auto">
-                <p class="mt-3md:text-xl md:mt-0"><?php the_content(); ?></p>
+                <p class="mt-3md:text-xl md:mt-0"><?php the_content(); ?>
+
+                <dl>
+                    <dt>価格</dt>
+                    <dd><?php echo number_format(get_field('価格')); ?>円</dd>
+                    <dt>発売日</dt>
+                    <dd><?php the_field('発売日') ?></dd>
+                </dl>
+
+            </p>
             </div>
 
             <p class="mt-7 text-xs text-center"><?php the_time( "Y/m/d" ); ?>
