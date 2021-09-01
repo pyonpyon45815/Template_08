@@ -40,15 +40,21 @@
         <?php
         $id = get_post_thumbnail_id();
         $img = wp_get_attachment_image_src($id);
-
         ?>
         <!-- hero -->
         <!-- 上記のアイキャッチ画像が入る -->
         
-        <div class="bg-center h-96 bg-no-repeat bg-cover" style="background-image: url('<?php echo $img[0]; ?>'); background-color: rgba(255,255,255,0.2); background-blend-mode: lighten;">
+        <div class="bg-cover bg-center" style="height:400px; width: 100%; background-image: url('<?php echo $img[0]; ?>'); background-color: rgba(255,255,255,0.1); background-blend-mode: lighten;">
         </div>
         
+        <!-- テスト画像 -->
+        <img class="border-none h-96" style="width: 100%; object-fit: cover;" src="<?php echo get_template_directory_uri(); ?>/assets/img/joel-filipe-RFDP7_80v5A-unsplash.jpg" alt="M様邸新築工事">   
 
+        <div>
+        <?php the_post_thumbnail(); ?>
+        
+        <div class="bg-no-repeat" style="background-image: url('<?php echo $img[0]; ?>');></div>
+        </div>
 
         <!-- ループ -->
     <?php while (have_posts()): the_post(); ?>
@@ -62,7 +68,7 @@
 
                 <dl>
                     <dt>価格</dt>
-                    <dd><?php echo number_format(get_field('価格')); ?>円</dd>
+                    <?php echo number_format(get_field('価格')); ?>円
                     <dt>発売日</dt>
                     <dd><?php the_field('発売日') ?></dd>
                 </dl>
