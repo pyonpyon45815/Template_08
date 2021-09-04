@@ -19,7 +19,7 @@
                 <header class="header">
                     <!-- ヘッダロゴ -->
                     <h1>
-                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/header_logo.png" alt="蒼乃建設" class="header-logo border-none"></a>
+                        <a href="http://localhost/bluehouseHP/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/header_logo.png" alt="蒼乃建設" class="header-logo border-none"></a>
                     </h1>
                     <!-- ヘッダーナビ -->
                     <nav class="header-nav">
@@ -27,7 +27,7 @@
                             <li><a href="#">企業理念</a></li>
                             <li><a href="#">施工事例</a></li>
                             <li><a href="#">採用情報</a></li>
-                            <li><a href="#">お問い合わせ</a></li>
+                            <li><a href="http://localhost/bluehouseHP/item/">お問い合わせ</a></li>
                         </ul>
                     </nav>
                     <div class="header-icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/hamburger.svg" alt="ハンバーガーメニュー"></div>
