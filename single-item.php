@@ -63,6 +63,15 @@
                 <p class="mt-3md:text-xl md:mt-0"><?php the_content(); ?>
 
                 <dl>
+                    <dt>カテゴリー</dt>
+                    <?php
+                    $terms = get_the_terms(get_the_ID(), 'item_category');
+                    foreach($terms as $term):
+                    ?>
+                    <dd><a href="<?php echo get_term_link($term->slug, 'item_category'); ?>"><?php echo htmlspecialchars($term->name); ?></a></dd>
+                    <?php 
+                    endforeach; 
+                    ?>
                     <dt>価格</dt>
                     <?php echo number_format(get_field('価格')); ?>円
                     <dt>発売日</dt>

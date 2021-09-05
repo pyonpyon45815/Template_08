@@ -30,6 +30,7 @@
         'name' => '商品カテゴリー',
       ],
       'hierarchical' => true,
+      'show_in_rest' => true,
       ]);
   }
   add_action('init', 'init_func');

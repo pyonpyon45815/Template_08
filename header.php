@@ -23,12 +23,7 @@
                     </h1>
                     <!-- ヘッダーナビ -->
                     <nav class="header-nav">
-                        <ul>
-                            <li><a href="#">企業理念</a></li>
-                            <li><a href="#">施工事例</a></li>
-                            <li><a href="#">採用情報</a></li>
-                            <li><a href="http://localhost/bluehouseHP/item/">お問い合わせ</a></li>
-                        </ul>
+                    <?php get_template_part('includes/nav'); ?>
                     </nav>
                     <div class="header-icon"><img class="border-none" src="<?php echo get_template_directory_uri(); ?>/assets/img/hamburger.svg" alt="ハンバーガーメニュー"></div>
                 </header>
