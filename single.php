@@ -44,8 +44,9 @@
         <!-- hero -->
         <!-- 上記のアイキャッチ画像が入る -->
         
-        <div class="bg-cover bg-center w-full h-96" style="background-image: url('<?php echo $img[0]; ?>'); background-color: rgba(255,255,255,0.1); background-blend-mode: lighten;">
-        </div>
+        <div class="bg-cover bg-center w-full h-96" style="background-image: url('<?php echo $img[0]; ?>'); background-color: rgba(255,255,255,0.1); background-blend-mode: lighten;"> 
+        </div> 
+       
         
        
 
