@@ -41,7 +41,6 @@
 <?php
 register_post_type(
   'item',
-  // 'supports'に'thumbnail'を追記
   array('supports' => array('title','editor','thumbnail'))
 );
 ?>
