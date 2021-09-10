@@ -19,22 +19,22 @@
                 <header class="header">
                     <!-- ヘッダロゴ -->
                     <h1>
-                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo.png" alt="蒼乃建設" class="header-logo border-none"></a>
+                        <a href="http://localhost/bluehouseHP/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo.png" alt="蒼乃建設" class="header-logo border-none"></a>
                     </h1>
                     <!-- ヘッダーナビ -->
                     <nav class="header-nav">
-                        <ul>
-                            <li><a class="text-white" href="#">開業理念</a></li>
-                            <li><a class="text-white" href="#">施工事例</a></li>
-                            <li><a class="text-white" href="#">採用情報</a></li>
-                            <li><a class="text-white" href="#">お問い合わせ</a></li>
-                        </ul>
+                    <ul>
+                        <li><a class="text-white" href="http://localhost/bluehouseHP/company_philosophy/">企業理念</a></li>
+                        <li><a class="text-white" href="http://localhost/bluehouseHP/construction_case/">施工事例</a></li>
+                        <li><a class="text-white" href="http://localhost/bluehouseHP/special/">採用情報</a></li>
+                        <li><a class="text-white" href="http://localhost/bluehouseHP/item/">お問い合わせ</a></li>
+                    </ul>
                     </nav>
                     <div class="header-icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/hamburger.svg" alt="ハンバーガーメニュー"></div>
                 </header>
             </div>
         </div>
-        
+
 
         <!-- アイキャッチ -->
         <?php

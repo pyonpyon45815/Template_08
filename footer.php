@@ -8,10 +8,10 @@
                     <!-- フッターナビ -->
                     <nav class="footer-nav__list">
                         <ul>
-                            <li><a  href="#">企業理念</a></li>
-                            <li><a href="#">施工事例</a></li>
-                            <li><a href="#">採用情報</a></li>
-                            <li><a href="#">お問い合わせ</a></li>
+                            <li><a  href="http://localhost/bluehouseHP/company_philosophy/">企業理念</a></li>
+                            <li><a href="http://localhost/bluehouseHP/construction_case/">施工事例</a></li>
+                            <li><a href="http://localhost/bluehouseHP/special/">採用情報</a></li>
+                            <li><a href="http://localhost/bluehouseHP/item/">お問い合わせ</a></li>
                         </ul>
                     </nav>
                 </div>
