@@ -39,7 +39,7 @@
 
         <!-- お知らせ -->
         <section class="news">
-            <h2 class="news-title">お知らせ</h2>
+            <h2 class="news-title text-red-800 font-bold">お知らせ</h2>
             <ul class="news-list">
 
             <?php while (have_posts()): the_post(); ?>
@@ -62,7 +62,7 @@
             </ul>
         </section>
 
-        <div class="text-3xl bg-blue-500">テストです。どんなかんじ</div>
+        <div class="text-3xl font-bold bg-green-300">テストです。どんなかんじ</div>
     
         <!-- 施工事例 -->
         <section class="case">

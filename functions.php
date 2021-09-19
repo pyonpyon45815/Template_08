@@ -46,7 +46,22 @@ register_post_type(
 ?>
 
 
+<!-- テスト -->
+<?php
 
+function rjs_styles() {
+/*  General style.css file
+	File is not enqueued because it only contains the theme configuration. 
+	CSS is generated inside css/tailwind.prod.css
+*/
+
+wp_enqueue_style( 'tailwindcss', get_template_directory_uri() . '/dist.css', array(), filemtime(get_template_directory() .'/dist.css'), 'all');
+
+
+} //End of rjs_styles() function
+
+//Load the files, hook them into the enqueue scripts
+add_action( 'wp_enqueue_scripts', 'rjs_styles' );
 
 
 

@@ -1,11 +1,10 @@
 module.exports = {
     mode: "jit",
     purge: {
-        enabled: true, //  purgeするかどうか
-        content: ['./single.php'], // purge対象のファイル
-        content: ['./index.php'] // purge対象のファイル
+        enabled: true,
+        content: ['./single.php', './index.php']
     },
-    darkMode: false, // or 'media' or 'class'
+    darkMode: false,
     theme: {
         extend: {},
     },
