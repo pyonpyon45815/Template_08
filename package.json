@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "SET TAILWIND_MODE=watch & postcss styles.css -o dist.css -w",
+        "dev": "SET TAILWIND_MODE=watch&postcss styles.css -o dist.css -w",
         "build": "SET NODE_ENV=production&&postcss styles.css -o dist.css"
     },
     "keywords": [],
