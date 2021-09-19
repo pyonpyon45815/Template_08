@@ -55,7 +55,7 @@ function rjs_styles() {
 	CSS is generated inside css/tailwind.prod.css
 */
 
-wp_enqueue_style( 'tailwindcss', get_template_directory_uri() . '/dist.css', array(), filemtime(get_template_directory() .'/dist.css'), 'all');
+wp_enqueue_style('tailwindcss', get_template_directory_uri() . '/dist.css', array(), filemtime(get_template_directory() .'/dist.css'), 'all');
 
 
 } //End of rjs_styles() function
