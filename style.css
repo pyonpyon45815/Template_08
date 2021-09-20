@@ -28,11 +28,11 @@ a:hover {
 
 /* 繝倥ャ繝繝ｼ */
 .header-wrap {
-  background-image: url(./assets/img/komugi.png);
+  background-image: url(./assets/img/main.png);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   width: 100%;
 }
