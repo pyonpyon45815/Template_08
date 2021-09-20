@@ -19,7 +19,7 @@
                 <header class="header">
                     <!-- ヘッダロゴ -->
                     <h1>
-                        <a href="http://localhost/bluehouseHP/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/header_logo.png" alt="蒼乃建設" class="header-logo border-none"></a>
+                        <a href="<?php echo home_url(); ?> "><img src="<?php echo get_template_directory_uri(); ?>/assets/img/header_logo.png" alt="蒼乃建設" class="header-logo border-none"></a>
                     </h1>
                     <!-- ヘッダーナビ -->
                     <nav class="header-nav">
