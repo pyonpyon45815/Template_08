@@ -50,7 +50,7 @@
         if(has_post_thumbnail()):
         else:
         ?>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/komugi.png" alt="" />
+        <img class="border-none h-full w-96 container mx-auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/20200502_noimage.png" alt="のーいめーじ" />
         <?php endif; ?>
 
 
