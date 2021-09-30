@@ -49,7 +49,7 @@
                     <a href="#" class="case-content__btn"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/more.png" alt="詳細を見る" class="case-content__img border-none"></a>
                 </section>
             </div>
-            <p class="case-btn"><a href="#">施工実績一覧</a></p>
+            <p class="case-btn"><a href="http://localhost/bluehouseHP/item/">施工実績一覧</a></p>
         </section>
 
         <!-- links -->

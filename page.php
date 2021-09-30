@@ -23,12 +23,11 @@
                     </h1>
                     <!-- ヘッダーナビ -->
                     <nav class="header-nav">
-                    <ul>
-                        <li><a class="text-white" href="http://localhost/bluehouseHP/company_philosophy/">企業理念</a></li>
-                        <li><a class="text-white" href="http://localhost/bluehouseHP/construction_case/">施工事例</a></li>
-                        <li><a class="text-white" href="http://localhost/bluehouseHP/special/">採用情報</a></li>
-                        <li><a class="text-white" href="http://localhost/bluehouseHP/item/">お問い合わせ</a></li>
+
+                    <ul class="text-white">
+                    <?php get_template_part('includes/nav'); ?>
                     </ul>
+
                     </nav>
                     <div class="header-icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/hamburger.svg" alt="ハンバーガーメニュー"></div>
                 </header>
@@ -53,7 +52,7 @@
                 <p class="mt-3md:text-xl md:mt-0"><?php the_content(); ?></p>
             </div>
 
-            <p class="mt-7 text-xs text-center"><?php the_time( "Y/m/d" ); ?>
+            <p class="mt-7 text-xs text-center">
             <span class="ml-3 text-xs">Posted by<?php the_author(); ?>
             </span>
             </p>

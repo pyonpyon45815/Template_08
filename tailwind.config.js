@@ -2,7 +2,7 @@ module.exports = {
     mode: "jit",
     purge: {
         enabled: true,
-        content: ['./single.php', './index.php']
+        content: ['./single.php', './index.php', './contact.html']
     },
     darkMode: false,
     theme: {
