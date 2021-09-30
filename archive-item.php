@@ -42,7 +42,7 @@
 
         <!-- お知らせ -->
         <section class="news">
-            <h2 class="news-title">お問い合わせメニュー</h2>
+            <h2 class="news-title">施工実績一覧</h2>
             <ul class="news-list">
 
             <?php while (have_posts()): the_post(); ?>
