@@ -41,7 +41,24 @@
         ?>
         <!-- hero -->
         <div class="bg-cover bg-center w-full h-96" style="background-image: url('<?php echo $img[0]; ?>'); background-color: rgba(255,255,255,0.1); background-blend-mode: lighten;">
+
+  <!-- no-image -->
+        <?php
+        if(has_post_thumbnail()):
+        else:
+        ?>
+        <img class="border-none h-full w-96 container mx-auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/20200502_noimage.png" alt="のーいめーじ" />
+        <?php endif; ?>
+
+
+
+
+
         </div>
+
+
+      
+
 
         <!-- ループ -->
     <?php while (have_posts()): the_post(); ?>
