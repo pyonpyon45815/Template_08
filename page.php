@@ -70,7 +70,7 @@
             </div>
 
             <p class="mt-7 text-xs text-center">
-            <span class="ml-3 text-xs">Posted by<?php the_author(); ?>
+            <span class="ml-3 text-xs">Posted by <?php the_author(); ?>
             </span>
             </p>
     </section>
