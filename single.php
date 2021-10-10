@@ -66,7 +66,7 @@
         <!-- ループ -->
         <?php while (have_posts()): the_post(); ?>
         <section class="mt-7 mb-7" style="min-height: calc(100vh - 244px);">
-            <h2 class="news-title text-3xl sm:text-4xl"><?php the_title(); ?></h2>
+            <h2 class="news-title text-3xl sm:text-4xl bg-green-500"><?php the_title(); ?></h2>
 
         
 

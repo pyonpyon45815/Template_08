@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +10,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <?php wp_head(); ?>
 </head>
-
 <body>
     <div class="wrap"> 
         <div class="bg-black">
@@ -23,57 +21,40 @@
                     </h1>
                     <!-- ヘッダーナビ -->
                     <nav class="header-nav">
-
                     <ul class="text-white">
                     <?php get_template_part('includes/nav'); ?>
                     </ul>
-
                     </nav>
                     <div class="header-icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/hamburger.svg" alt="ハンバーガーメニュー"></div>
                 </header>
             </div>
         </div>
-
  <!-- アイキャッチ -->
         <?php
         $id = get_post_thumbnail_id();
         $img = wp_get_attachment_image_src($id, 'small');
         ?>
-        <!-- hero -->
+<!-- hero -->
         <div class="bg-cover bg-center w-full h-96" style="background-image: url('<?php echo $img[0]; ?>'); background-color: rgba(255,255,255,0.1); background-blend-mode: lighten;">
-
   <!-- no-image -->
-        <?php
-        if(has_post_thumbnail()):
-        else:
-        ?>
-        <img class="border-none h-full w-96 container mx-auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/20200502_noimage.png" alt="のーいめーじ" />
-        <?php endif; ?>
-
-
-
-
-
+            <?php
+            if(has_post_thumbnail()):
+            else:
+            ?>
+            <img class="border-none h-full w-96 container mx-auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/20200502_noimage.png" alt="のーいめーじ" />
+            <?php endif; ?>
         </div>
-
-
-      
-
-
-        <!-- ループ -->
+<!-- ループ -->
     <?php while (have_posts()): the_post(); ?>
     <section class="mt-7 mb-7" style="min-height: calc(100vh - 244px);">
-            <h2 class="news-title text-3xl sm:text-4xl"><?php the_title(); ?></h2>
-
+            <h2 class="news-title text-3xl sm:text-4xl bg-red-200"><?php the_title(); ?></h2>
             <div class="w-1/2 text-left mt-0 mb-0 mr-auto ml-auto">
-                <p class="mt-3md:text-xl md:mt-0"><?php the_content(); ?></p>
+                <p class="mt-3md:text-xl md:mt-0 bg-red-600"><?php the_content(); ?></p>
             </div>
-
             <p class="mt-7 text-xs text-center">
             <span class="ml-3 text-xs">Posted by <?php the_author(); ?>
             </span>
             </p>
     </section>
     <?php endwhile; ?> 
-
 <?php get_footer(); ?>
