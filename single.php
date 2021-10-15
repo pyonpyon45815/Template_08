@@ -83,4 +83,6 @@
     </section>
     <?php endwhile; ?> 
 
+    <?php get_sidebar('categories'); ?>
+    <?php get_sidebar('archives'); ?>
 <?php get_footer(); ?>

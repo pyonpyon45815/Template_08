@@ -11,78 +11,20 @@
 </head>
 
 <body class="">
-    <div class="w-full  h-screen flex justify-center items-center">
-        <div class="w-3/5 h-3/5">
+    <div class="">
 
-            <div class="h-10 flex">
+        <aside class="">
+            <h2 class="">カテゴリー一覧</h2>
+            <ul>
+                <?php 
+                $args = array(
+                    'title_li' => ",
+                );
+                wp_list_categories($args);
+                ?>
+            </ul>
+        </aside>
 
-                <div class="flex w-96 text-xl bg-red-300">
-                    <label class="" for="fullname">お名前<span class="px-0.5 py-0.5 text-red-600 border-solid ml-8 border border-red-600">必須</span></label>
-                </div>
-
-                <input class="w-full border-black border px-3" type="text" name="fullname">
-
-            </div>
-
-            <div class="h-10 flex mt-10">
-
-                <div class="flex w-96 text-xl">
-                    <label class="" name="addres">メールアドレス<span class="py-0.5 px-0.5 text-red-600 border-solid ml-8 border border-red-600">必須</span></label>
-                </div>
-
-                <input class="w-full border-black border px-3" type="text" name="fullname">
-
-            </div>
-
-            <div class="h-10 flex mt-10">
-
-                <div class="flex w-96 text-xl">
-                    <label class="" for="message">メッセージ本文</label>
-                </div>
-
-
-                <textarea id="message" name="message" class="px-3 py-3 w-full border-black border h-48"></textarea>
-
-            </div>
-            <div class="text-center">
-                <button class="text-white text-xl py-4 px-4 bg-gray-700 hover:bg-black mt-48" type="button">確認画面へ</button>
-            </div>
-        </div>
-
-
-    </div>
-
-    <!-- テスト -->
-
-    <div class="form">
-        <div class="form_row">
-            <label class="form_label" for="fullname">お名前<span>必須</span></label>
-            <div class="form_content">
-                <!-- [mwform_text name="fullname" id="fullname"] -->
-            </div>
-        </div>
-
-        <div class="form_row">
-            <label class="form_label" for="email">メールアドレス<span>必須</span></label>
-            <div class="form_content">
-                <!-- [mwform_email name="email" id="email"] -->
-            </div>
-        </div>
-
-        <div class="form_row">
-            <label class="form_label" for="message">メッセージ</label>
-            <div class="form_content">
-                <!-- [mwform_textarea name="message" id="message"] -->
-            </div>
-        </div>
-
-        <div class="form_row form_row-center">
-            <!-- [mwform_submitButton name="send" class="btn btn-send" confirm_value="確認画面へ" submit_value="送信する"] -->
-        </div>
-
-        <div class="form_row form_row-center">
-            <!-- [mwform_backButton class="btn btn-back" value="戻る"] -->
-        </div>
     </div>
 
 
