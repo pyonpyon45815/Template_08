@@ -46,10 +46,8 @@
         
         <div class="bg-cover bg-center w-full h-96" style="background-image: url('<?php echo $img[0]; ?>'); background-color: rgba(255,255,255,0.1); background-blend-mode: lighten;"> 
 
-        <?php
-        if(has_post_thumbnail()):
-        else:
-        ?>
+        <?php if(has_post_thumbnail()): ?>
+        <?php else: ?>
         <img class="border-none h-full w-96 container mx-auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/20200502_noimage.png" alt="のーいめーじ" />
         <?php endif; ?>
 
@@ -66,7 +64,7 @@
         <!-- ループ -->
         <?php while (have_posts()): the_post(); ?>
         <section class="mt-7 mb-7" style="min-height: calc(100vh - 244px);">
-            <h2 class="news-title text-3xl sm:text-4xl bg-green-500"><?php the_title(); ?></h2>
+            <h2 class="news-title text-3xl sm:text-4xl"><?php the_title(); ?></h2>
 
         
 
