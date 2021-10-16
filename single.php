@@ -24,10 +24,10 @@
                     <!-- ヘッダーナビ -->
                     <nav class="header-nav">
                         <ul>
-                            <li><a class="text-white" href="#">開業理念</a></li>
-                            <li><a class="text-white" href="#">施工事例</a></li>
-                            <li><a class="text-white" href="#">採用情報</a></li>
-                            <li><a class="text-white" href="#">お問い合わせ</a></li>
+                            <li><a class="text-white" href="http://localhost/bluehouseHP/company_philosophy/">企業理念</a></li>
+                            <li><a class="text-white" href="http://localhost/bluehouseHP/construction_case/">施工事例</a></li>
+                            <li><a class="text-white" href="http://localhost/bluehouseHP/special/">採用情報</a></li>
+                            <li><a class="text-white" href="http://localhost/bluehouseHP/form/">お問い合わせ</a></li>
                         </ul>
                     </nav>
                     <div class="header-icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/hamburger.svg" alt="ハンバーガーメニュー"></div>

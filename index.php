@@ -12,22 +12,37 @@
     <?php wp_head(); ?>
 </head>
 <body>
+<!-- header -->
+<div class="bg-black">
+    <div class="header-container bg-black block">
+        <header class="header">
+            <!-- ヘッダロゴ -->
+            <h1>
+                <a href="<?php echo home_url(); ?> "><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo.png" alt="蒼乃建設" class="header-logo border-none"></a>
+            </h1>
+            <!-- ヘッダーナビ -->
+            <nav class="header-nav">
+                <ul>
+                    <li><a class="text-white" href="http://localhost/bluehouseHP/company_philosophy/">企業理念</a></li>
+                    <li><a class="text-white" href="http://localhost/bluehouseHP/construction_case/">施工事例</a></li>
+                    <li><a class="text-white" href="http://localhost/bluehouseHP/special/">採用情報</a></li>
+                    <li><a class="text-white" href="http://localhost/bluehouseHP/form/">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            <div class="header-icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/hamburger.svg" alt="ハンバーガーメニュー"></div>
+        </header>
+    </div>
+  <!-- headerここまで -->
   <!-- hero -->
      <div class="bg-no-repeat bg-cover bg-center w-full relative" style="height:50vh; background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/c-dustin-91AQt9p4Mo8-unsplash.jpg);">
      </div>
   <!-- heroここまで -->
-    <div class="py-6 sm:py-8 lg:py-12">
-    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
-      <!-- text - start -->
-      <div class="mb-10 md:mb-16">
-        <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6">Meet our Team</h2>
-
-        <p class="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
-          This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.
-        </p>
-      </div>
-      <!-- text - end -->
-
+  <div class="bg-white py-6 sm:py-8 lg:py-12">
+        <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+        <div class="mb-10 md:mb-16">
+            <h2 class="text-gray-800 text-3xl lg:text-5xl font-bold text-center mb-4 md:mb-6"><?php wp_title(''); ?></h2>    
+        </div>
+  
       <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
         <!-- person - start -->
         <div>
@@ -216,5 +231,5 @@
         <!-- person - end -->
       </div>
     </div>
-    </div>
+  </div>
 <?php get_footer(); ?>
