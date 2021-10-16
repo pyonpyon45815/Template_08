@@ -10,27 +10,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
-<body class="">
-    <div class="">
+<body class="text-4xl w-10/12 container mx-auto h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <header class="bg-blue-300 p-3 rounded-lg col-span-5">header</header>
 
-        <aside class="">
-            <h2 class="">カテゴリー一覧</h2>
-            <ul>
-                <?php 
-                $args = array(
-                    'title_li' => ",
-                );
-                wp_list_categories($args);
-                ?>
-            </ul>
-        </aside>
+    <nav class="bg-blue-300 p-3 rounded-lg row-span-3 col-span-3 md:col-span-1">left</nav>
+    <main class="bg-blue-300 p-3 rounded-lg row-span-3 col-span-3 md:col-span-2 lg:col-span-3 h-96">center</main>
 
-    </div>
-
-
-
-
-
+    <aside class="bg-blue-300 p-3 rounded-lg row-span-3 col-span-3 lg:col-span-1">right</aside>
+    <div class="bg-blue-300 p-3 rounded-lg col-span-5">テスト</div>
+    <div class="bg-blue-300 p-3 rounded-lg col-span-5">テスト</div>
+    <footer class="bg-blue-300 p-3 rounded-lg col-span-3">aside</footer>
+    <footer class="bg-blue-300 p-3 rounded-lg">footer</footer>
+    <footer class="bg-blue-300 p-3 rounded-lg col-span-2">footer</footer>
 </body>
 
 </html>
