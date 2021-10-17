@@ -10,18 +10,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
-<body class="text-4xl w-10/12 container mx-auto h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-    <header class="bg-blue-300 p-3 rounded-lg col-span-5">header</header>
-
-    <nav class="bg-blue-300 p-3 rounded-lg row-span-3 col-span-3 md:col-span-1">left</nav>
-    <main class="bg-blue-300 p-3 rounded-lg row-span-3 col-span-3 md:col-span-2 lg:col-span-3 h-96">center</main>
-
-    <aside class="bg-blue-300 p-3 rounded-lg row-span-3 col-span-3 lg:col-span-1">right</aside>
-    <div class="bg-blue-300 p-3 rounded-lg col-span-5">テスト</div>
-    <div class="bg-blue-300 p-3 rounded-lg col-span-5">テスト</div>
-    <footer class="bg-blue-300 p-3 rounded-lg col-span-3">aside</footer>
-    <footer class="bg-blue-300 p-3 rounded-lg">footer</footer>
-    <footer class="bg-blue-300 p-3 rounded-lg col-span-2">footer</footer>
+<body>
+    <div class="text-4xl container mx-auto grid grid-cols-1 md:grid-cols-5 gap-4">
+        <header class="bg-blue-100 text-white p-3 rounded-lg md:col-span-5">header</header>
+        <div class="grid gap-4 md:col-span-4 md:grid-cols-4">
+            <nav class="bg-blue-200 text-white  p-3 rounded-lg md:col-span-4 lg:col-span-2 md:h-24 lg:h-full">コンテンツ1</nav>
+            <main class="bg-blue-300 text-white p-3 rounded-lg md:col-span-4 lg:col-span-2 md:h-24 lg:h-full">コンテンツ2</main>
+            <aside class="bg-blue-400 text-white p-3 rounded-lg md:col-span-4 lg:col-span-2 md:h-24 lg:h-full">コンテンツ3</aside>
+            <div class="bg-blue-500 text-white p-3 rounded-lg md:col-span-4 lg:col-span-2 md:h-24 lg:h-full">コンテンツ4</div>
+            <div class="bg-blue-600 text-white p-3 rounded-lg md:col-span-4 lg:col-span-2 md:h-24 lg:h-full ">コンテンツ5</div>
+            <footer class="bg-blue-700 text-white p-3 rounded-lg md:col-span-4 lg:col-span-2 md:h-24 lg:h-full ">コンテンツ6</footer>
+        </div>
+        <footer class="bg-blue-800 text-white p-3 rounded-lg md:row-span-1 md:col-span-1 lg:h-screen">aside</footer>
+        <footer class="bg-blue-900 text-white p-3 rounded-lg md:col-span-5">footer</footer>
+    </div>
 </body>
 
 </html>
