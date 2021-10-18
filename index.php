@@ -41,9 +41,9 @@
         <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
         <div class="mb-10 md:mb-16">
             <h2 class="text-gray-800 text-3xl lg:text-5xl font-bold text-center mb-4 md:mb-6"><?php wp_title(''); ?></h2>    
-        </div>
-  
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
+  </div>
+<div class="grid md:grid-cols-4 md:gap-8">
+    <div class="grid grid-cols-1 col-span-3 md:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12 md:h-screen">
         <!-- person - start -->
         <div>
           <div class="h-48 sm:h-60 md:h-80 bg-gray-100 overflow-hidden rounded-lg shadow-lg mb-2 sm:mb-4">
@@ -87,13 +87,6 @@
           </div>
         </div>
         <!-- person - end -->
-
-
-        <div class="bg-red-300 row-span-3 md:col-span-1">
-        <?php get_sidebar('categories'); ?>
-        <?php get_sidebar('archives'); ?>
-        </div>
-
 
         <!-- person - start -->
         <div>
@@ -221,6 +214,9 @@
         </div>
         <!-- person - end -->
       </div>
-    </div>
-  </div>
+      <div>
+          <?php get_sidebar('categories'); ?>
+          <?php get_sidebar('archives'); ?>
+      </div>
+</div>
 <?php get_footer(); ?>
