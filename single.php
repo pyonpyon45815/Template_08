@@ -48,26 +48,61 @@
         <?php endif; ?>
         </div> 
     <!-- ループ -->
-    <div class="grid grid-cols-5">
-        <div class="col-span-4">
+    <div class="bg-white py-6 sm:py-8 lg:py-12">
+        <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+            <!-- タイトル -->
+            <h2 class="news-title text-3xl sm:text-4xl">
+                <?php the_title(); ?>
+            </h2>
             <?php while (have_posts()): the_post(); ?>
-            <section class="mt-7 mb-7" style="min-height: calc(100vh - 244px);">
-                <h2 class="news-title text-3xl sm:text-4xl"><?php the_title(); ?></h2>
-                <div class="w-1/2 text-left mt-0 mb-0 mr-auto ml-auto">
-                    <p class="mt-3md:text-xl md:mt-0"><?php the_content(); ?>
-                </p>
+            <section  class="grid grid-cols-1 md:grid-cols-4">
+                <div class="grid grid-cols-1 col-span-1 md:col-span-3 md:h-screen">
+                    <!-- コンテンツ -->
+                    <div class="md:col-span-3">
+                        <p class="mt-3md:text-xl md:mt-0"><?php the_content(); ?></p>
+                    </div>
+                    <p class="mt-7 text-xs md:col-span-3 text-center">
+                        <?php the_time( "Y/m/d" ); ?>
+                        <span class="ml-3 text-xs">Posted by<?php the_author(); ?></span>
+                    </p> 
                 </div>
-                <p class="mt-7 text-xs text-center"><?php the_time( "Y/m/d" ); ?>
-                <span class="ml-3 text-xs">Posted by<?php the_author(); ?>
-                </span>
-                </p>
+                <!-- アーカイブ -->
+                <div>
+                <?php get_sidebar('categories'); ?>
+                <?php get_sidebar('archives'); ?>
+                </div>
             </section>
             <?php endwhile; ?> 
         </div>  
         <!-- アーカイブ -->
-        <div>
-            <?php get_sidebar('categories'); ?>
-            <?php get_sidebar('archives'); ?>
-        </div>
+       
     </div>
-<?php get_footer(); ?>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-nav">
+                    <!-- フッターロゴ -->
+                    <p>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo.png" alt="蒼乃建設" class="footer-logo "></a>
+                    </p>
+                    <!-- フッターナビ -->
+                    <nav class="footer-nav__list">
+                        <ul>
+                            <li><a  href="http://localhost/bluehouseHP/company_philosophy/">企業理念</a></li>
+                            <li><a href="http://localhost/bluehouseHP/construction_case/">施工事例</a></li>
+                            <li><a href="http://localhost/bluehouseHP/special/">採用情報</a></li>
+                            <li><a href="http://localhost/bluehouseHP/item/">お問い合わせ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <p class="copyright">Copyright © 2020 Aono Corporation.</p>
+            </div>
+            
+        </footer>
+        
+    </div>
+    <!-- wrap -->
+    <script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
+    <?php wp_footer(); ?>
+</body>
+
+</html>
