@@ -46,18 +46,14 @@
         <!-- コンテンツ -->
         <div class="grid md:grid-cols-4 md:gap-8">
             <div class="grid col-span-1 md:col-span-3 md:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12 md:h-screen">
-                <!-- person - start -->
-                <div>
-                  <div class="h-48 sm:h-60 md:h-80 bg-gray-100 overflow-hidden rounded-lg shadow-lg mb-2 sm:mb-4">
-                    <img src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=500" loading="lazy" alt="Photo by Radu Florin" class="w-full h-full object-cover object-center border-none">
-                  </div>
 
-                  <div>
-                  <div class="text-indigo-500 md:text-lg font-bold">Kate Berg</div>
-                    <p class="text-gray-500 text-sm md:text-base mb-3 md:mb-4">CFO</p>
-                  </div>
-                </div>
-                <!-- person - end -->
+               <?php if(have_posts()): ?>
+                    <?php while(have_posts()): the_post(); ?>
+                      <div class="bg-red-300">
+                        <?php get_template_part('template-parts/loop','news'); ?> 
+                      </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
 
                 <!-- person - start -->
                 <div>
