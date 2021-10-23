@@ -56,7 +56,7 @@
             </h2>
             <?php while (have_posts()): the_post(); ?>
             <section  class="grid grid-cols-1 md:grid-cols-4">
-                <div class="grid grid-cols-1 col-span-1 md:col-span-3 md:h-screen">
+                <div class="grid grid-cols-1 col-span-1 md:col-span-3 md:h-screen news-list">
                     <!-- コンテンツ -->
                     <div class="md:col-span-3">
                         <p class="mt-3md:text-xl md:mt-0"><?php the_content(); ?></p>
