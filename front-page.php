@@ -54,7 +54,7 @@
         <div class="links">
             <a href="http://localhost/bluehouseHP/company_philosophy/" class="link-img"><img class="border-none" src="<?php echo get_template_directory_uri(); ?>/assets/img/company.png" alt="企業理念"></a>
             <a href="http://localhost/bluehouseHP/special/" class="link-img"><img class="border-none" src="<?php echo get_template_directory_uri(); ?>/assets/img/recruit.png" alt="採用情報"></a>
-            <a href="http://localhost/bluehouseHP/item/" class="link-img"><img class="border-none" src="<?php echo get_template_directory_uri(); ?>/assets/img/contact.png" alt="お問い合わせ"></a>
+            <a href="http://localhost/bluehouseHP/form/" class="link-img"><img class="border-none" src="<?php echo get_template_directory_uri(); ?>/assets/img/contact.png" alt="お問い合わせ"></a>
         </div>
 
 

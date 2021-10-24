@@ -58,8 +58,8 @@
             <section  class="grid grid-cols-1 md:grid-cols-4">
                 <div class="grid grid-cols-1 col-span-1 md:col-span-3 md:h-screen news-list">
                     <!-- コンテンツ -->
-                    <div class="md:col-span-3">
-                        <p class="mt-3md:text-xl md:mt-0"><?php the_content(); ?></p>
+                    <div class="md:col-span-3 text-lg tracking-wider">
+                        <p class="mt-3 md:mt-0"><?php the_content(); ?></p>
                     </div>
                     <p class="mt-7 text-xs md:col-span-3 text-center">
                         <?php the_time( "Y/m/d" ); ?>

@@ -41,7 +41,11 @@
     <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
         <!-- タイトル -->
         <div class="mb-10 md:mb-16">
-            <h2 class="text-gray-800 text-3xl lg:text-5xl font-bold text-center mb-4 md:mb-6"><?php wp_title(''); ?></h2>    
+            <?php if(is_month()): ?>
+                <h2 class="text-gray-800 text-3xl lg:text-5xl font-bold text-center mb-4 md:mb-6"><?php the_time('Y年m月'); ?></h2>
+            <?php else: ?>
+                <h2 class="text-gray-800 text-3xl lg:text-5xl font-bold text-center mb-4 md:mb-6"><?php wp_title('')?></h2>
+            <?php endif; ?>
         </div>
         <!-- コンテンツ -->
         <div class="grid md:grid-cols-4 md:gap-8">

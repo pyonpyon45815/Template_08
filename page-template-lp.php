@@ -23,10 +23,6 @@
         <div class="bg-black">
             <div class="header-container bg-black block">
                
-
-
-
-            
             </div>
         </div>
 
@@ -41,7 +37,7 @@
 
         <!-- ループ -->
     <?php while (have_posts()): the_post(); ?>
-    <section class="mt-7 mb-7" style="min-height: calc(100vh - 244px);">
+    <section class="mt-7 mb-7 news-list text-center" style="min-height: calc(100vh - 244px);">
             <h2 class="news-title text-3xl sm:text-4xl"><?php the_title(); ?></h2>
 
             <div class="w-1/2 text-left mt-0 mb-0 mr-auto ml-auto">
