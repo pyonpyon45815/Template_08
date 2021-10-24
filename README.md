@@ -8,7 +8,7 @@
 <img src="https://user-images.githubusercontent.com/71893954/138578933-4e4646bc-8663-4c6d-8112-ba1d0b5b3e3f.gif" width="200">
 ワードプレス化を実施し、CMSで操作できるようにしました。
 
-#Features
+#　Features
 
 ブログ機能を実装。アーカイブ、検索も可能。
 
